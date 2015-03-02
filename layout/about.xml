@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" The main objective of this is to provide an generalized App for a particular department of the University.In this case it's ODUCS App is for the Computer Science Department of ODU.It will provide much information about the departments in a more organized way. "
+        android:textStyle="bold" />
+
+</LinearLayout>

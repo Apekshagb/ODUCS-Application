@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+ <TextView 
+        android:id ="@+id/nameTxt"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="16sp"
+    	android:textStyle="bold"
+        />
+     
+    <TextView 
+        android:id ="@+id/typeTxt"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="12sp"
+    	android:layout_below="@id/nameTxt"
+        />
+    
+     <TextView 
+        android:id ="@+id/positionTxt"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="12sp"
+    	android:layout_below="@id/typeTxt"
+        />
+     
+     <TextView 
+        android:id ="@+id/officeTxt"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="12sp"
+    	android:layout_below="@id/positionTxt"
+        />
+     
+     <TextView 
+        android:id ="@+id/emailTxt"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="12sp"
+    	android:layout_below="@id/officeTxt"
+        />
+     
+     <TextView 
+        android:id ="@+id/phoneTxt"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="12sp"
+    	android:layout_below="@id/emailTxt"
+        />
+     
+ 	 
+        
+
+</RelativeLayout>

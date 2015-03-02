@@ -1,15 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="@drawable/background">
+    tools:context="${packageName}.${activityClass}"
+    android:background="@drawable/background">"
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" The main objective of this is to provide an generalized App for a particular department of the University.In this case it's ODUCS App is for the Computer Science Department of ODU.It will provide much information about the departments in a more organized way. "
-        android:textStyle="bold" />
+        android:text="" />
 
-</LinearLayout>
+     <Button
+        android:id="@+id/about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+        android:text="About"
+        android:textSize="20dp" />
+     
+      <Button
+        android:id="@+id/directory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about"
+        android:text="Directory"
+        android:textSize="20dp" />
+      
+    <Button
+        android:id="@+id/courses"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/directory"
+        android:text="Courses"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/news"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/courses"
+        android:text="News"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/events"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/news"
+        android:layout_centerHorizontal="true"
+        android:text="Events" />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/events"
+        android:text="Contact"
+        android:textSize="20dp" />
+
+</RelativeLayout>
